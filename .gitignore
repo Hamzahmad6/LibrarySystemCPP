@@ -1,0 +1,10 @@
+# Ignore compiled files
+*.exe
+*.o
+*.obj
+
+# Ignore Visual Studio/IDE specific files (optional)
+*.vscode/
+*.vs/
+*.user
+*.log
