@@ -2,10 +2,10 @@
 #include <string>
 using namespace std;
 
-// =====================
+
 // MEMBER MANAGEMENT
 // Linked list implementation to store and manage library members
-// =====================
+
 struct MemberNode {
     int id;
     string name;
@@ -68,10 +68,10 @@ public:
     }
 };
 
-// =====================
+
 // BOOK MANAGEMENT
 // Binary Search Tree implementation to store and manage books
-// =====================
+
 struct BookNode {
     int id;
     string title;
@@ -139,10 +139,10 @@ public:
     void displayBooksSorted() { cout << "\n--- Book Inventory (Sorted by ID) ---" << endl; inorder(root); }
 };
 
-// =====================
+
 // BORROW HISTORY
 // Doubly linked list to store borrow records
-// =====================
+
 struct HistoryNode { int memberId; int bookId; string date; HistoryNode* prev; HistoryNode* next; };
 
 class BorrowHistory {
@@ -177,10 +177,10 @@ public:
     }
 };
 
-// =====================
+
 // RETURN STACK
 // Stack to handle returned books (LIFO)
-// =====================
+
 struct ReturnStackNode { int bookId; ReturnStackNode* next; };
 
 class ReturnStack {
@@ -205,10 +205,10 @@ public:
     }
 };
 
-// =====================
+
 // RESERVATION QUEUE
 // Queue to handle book reservations (FIFO)
-// =====================
+
 struct QueueNode { int memberId; int bookId; QueueNode* next; };
 
 class ReservationQueue {
@@ -238,10 +238,10 @@ public:
     }
 };
 
-// =====================
-// MAIN MENU
+
+// System MAIN MENU
 // Interactive menu to perform all operations
-// =====================
+
 int main() {
     MemberList members;
     BookBST books;
