@@ -1,4 +1,4 @@
-# Library Management System (C++ University Project)
+# Library Management System
 
 ## Overview
 This is a console-based Library Management System built in C++ as a university project.  
