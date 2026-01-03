@@ -1,69 +1,38 @@
-# Library Management System
+# 📚 Library Management System (C++)
 
-## Overview
-This is a console-based Library Management System built in C++ as a university project.  
-It allows managing members, books, borrowing, returning, and reservations using object-oriented programming and data structures such as: Linked Lists, Binary Search Trees, Stacks, And Queues.
-
----
-## Features
-
-### Member Management
-- Add new members
-- Remove existing members
-- Search members by ID
-- Display all members
-
-### Book Management
-- Add new books
-- Remove books
-- Search books by ID
-- Display all books (sorted by ID using a BST)
-
-### Borrowing and Return
-- Borrow books and track history
-- View all borrow history
-- View borrow history of a specific member
-- Return books using a stack
-- Process book returns
-
-### Reservations
-- Reserve books for members using a queue
-- Process book reservations
+A **console-based Library Management System** built in C++.  
+This project allows managing books and users efficiently, using **Object-Oriented Programming (OOP)** principles and file handling for persistent storage.
 
 ---
 
-## Technologies & Concepts
-- C++ programming
-- Object-Oriented Programming (classes, objects)
-- Data Structures:
-  - Linked List (for members and borrow history)
-  - Binary Search Tree (for book inventory)
-  - Stack (for returns)
-  - Queue (for reservations)
-- Console input/output
-- Basic error handling
+## 🛠 Tech Stack
+
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-Object%20Oriented-blue?style=for-the-badge)
+![DSA](https://img.shields.io/badge/DSA-Data%20Structures%20%26%20Algorithms-green?style=for-the-badge)
+![File Handling](https://img.shields.io/badge/File%20Handling-C++-orange?style=for-the-badge)
+![Console](https://img.shields.io/badge/Console%20App-Terminal-black?style=for-the-badge)
 
 ---
 
-## How to Run
-1. Clone the repository: git clone https://github.com/Hamzahmad6/LibrarySystemCPP.git
-
-2. Open the project in any C++ IDE (VS Code, Code::Blocks, Visual Studio, etc.)
-3. Compile `main.cpp`
-4. Run the executable
-5. Follow the on-screen menu to interact with the library system
-
----
-
-## What I Learned
-- Designing and implementing a fully functional library system in C++
-- Using multiple classes and structures for modular design
-- Implementing and using key data structures (linked list, BST, stack, queue)
-- Handling user input and program flow in a console application
-- Debugging and managing memory in C++
+## 🚀 Features
+- Add, remove, and search books
+- Track book availability
+- Manage user accounts
+- File handling for persistent storage
+- Modular design with separate classes for **Book** and **User**
 
 ---
 
-## Contact
-- Email: Hamzabatawy@gmail.com 
-- LinkedIn: www.linkedin.com/in/hamza-ahmed-8a312a302
+## 🛠 Technologies Used
+- C++  
+- Object-Oriented Programming (OOP)  
+- File input/output (fstream)  
+- Console input/output  
+
+---
+
+## ▶️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hamzahmad6/LibrarySystemCPP.git
